@@ -8,7 +8,7 @@ const useCart = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:9000/products/byKeys`, {
+        fetch(`https://peaceful-brushlands-06099.herokuapp.com/products/byKeys`, {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

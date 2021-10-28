@@ -10,7 +10,7 @@ const Shipping = () => {
     const onSubmit = data => {
         const savedCart = getStoredCart();
         data.order = savedCart;
-        fetch('http://localhost:9000/orders', {
+        fetch('https://peaceful-brushlands-06099.herokuapp.com/orders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
